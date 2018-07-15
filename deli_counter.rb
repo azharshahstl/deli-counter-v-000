@@ -14,7 +14,7 @@ end
 
 def take_a_number(katz_deli, new_customer)
   if katz_deli == []
-    katz_deli == [] + "#{new_customer}"
+    katz_deli 
   end
   
   
