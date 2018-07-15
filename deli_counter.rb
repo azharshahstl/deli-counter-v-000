@@ -7,9 +7,10 @@ def line(katz_deli)
     katz_deli.map do |name|
       index = 0
       current_line = "#{index + 1}. " + name
-    puts "The line is currently: #{current_line}"
+      index += 1
     end
   end
+  
 end
 
 def take_a_number(katz_deli, new_customer)
