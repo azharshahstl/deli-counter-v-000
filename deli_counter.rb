@@ -8,8 +8,9 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       current_line << "#{index + 1}. " + name
     end
+    
   end
-  puts "The line is currently: #{current_line}"
+ 
 end
 
 def take_a_number(katz_deli, new_customer)
