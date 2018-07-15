@@ -4,13 +4,13 @@ def line(katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else 
-    katz_deli.map do |name|
+    katz_deli. do |name|
       index = 0
       current_line = "#{index + 1}. " + name
       index += 1
     end
   end
-  
+  puts "The line is currently: #{current_line}"
 end
 
 def take_a_number(katz_deli, new_customer)
